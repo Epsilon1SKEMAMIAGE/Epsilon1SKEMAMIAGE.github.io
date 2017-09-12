@@ -1,0 +1,73 @@
+
+p{
+	font-family:Tahoma, Geneva, sans-serif;
+}
+h1,h2{
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+body{
+	display: block;
+	
+}
+
+#title{
+	text-shadow:1px 1px #ffffff; 
+
+}
+
+.main_title{
+	margin: auto;
+	padding: 2em  1em  2em 1em;
+	float: center;
+	width: 99%%;
+	color:#ff6f00;
+	font-size: 45px;
+	background-image: url("./resources/OCDBE20.jpg");
+	background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.text_orange{
+	color:#ff6f00;
+}
+.text_green{
+	color:#aeea00;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  float: center;
+  text-align: center;
+  width: 100%;
+  padding: 3px 1px 1px 1px;
+}
+
+.half-container{
+	opacity: 0.5;
+	background-color: #ffffff;
+	display: block;
+
+}
+
+.left{
+	float:left;
+	width: 65%;
+}
+
+.right{
+	float:right;
+	width: 65%;
+}
+
+.frame{
+	margin-top : 1em;
+	border: 2px solid #55b93a;
+    border-radius: 15px;
+}
+
+.separator{
+	width: 100%
+}

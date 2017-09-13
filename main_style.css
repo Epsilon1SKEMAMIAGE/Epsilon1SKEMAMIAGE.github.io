@@ -8,32 +8,41 @@ h1,h2{
 
 body{
 	display: block;
-	
+	background-color: #aeea00;
 }
 
 #title{
 	text-shadow:1px 1px #ffffff; 
-
+	background-image: url("./resources/OCDBE20.jpg");
+	background-size: 120%;
+    background-repeat: no-repeat;
+    width: 110%;
+    margin : -0.5em;
 }
 
 .main_title{
 	margin: auto;
 	padding: 2em  1em  2em 1em;
 	float: center;
-	width: 99%%;
+	width: 100%;
 	color:#ff6f00;
 	font-size: 45px;
-	background-image: url("./resources/OCDBE20.jpg");
-	background-size: 100%;
-    background-repeat: no-repeat;
+}
 
+.sub-title{
+	padding: 0.2em  0.1em  0.2em 0.1em;
+	margin: auto;
+	width: 100%;
+	font-size: 28px;
+	background-color: white;
+	box-shadow:1px 1px 5px 1px black; 
 }
 
 .text_orange{
 	color:#ff6f00;
 }
 .text_green{
-	color:#aeea00;
+	color:#55b93a;
 }
 
 .container {
@@ -64,8 +73,9 @@ body{
 
 .frame{
 	margin-top : 1em;
-	border: 2px solid #55b93a;
-    border-radius: 15px;
+	border: 3px solid grey;
+    background-color: white;
+    box-shadow:1px 1px 1px 1px grey; 
 }
 
 .separator{

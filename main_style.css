@@ -95,3 +95,9 @@ body{
 .hide_puce{
 	list-style-type:none;
 }
+.videoframe{
+	display: block;
+  	margin: auto;
+  	text-align: center;
+  	float: center;
+}

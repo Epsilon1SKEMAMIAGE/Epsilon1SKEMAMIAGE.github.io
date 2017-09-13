@@ -18,13 +18,13 @@
 .navitem{
 	display: inline-block;
 	text-align: center;
-	width: 19%;
+	width: 24%;
 	border: 0.5px solid #ff6f00;
 	background-color: white;
 	margin-bottom: 1em;
 }
 .textitem{
-	width: 19%;
+	width: 24%;
 	font-weight: 450;
 }
 a{

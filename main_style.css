@@ -13,6 +13,10 @@ body{
 	width: 100%;
 }
 
+#frame{
+	float : bottom;
+}
+
 #title{
 	font-weight: normal;
 	text-shadow:1px 1px #ffffff; 
@@ -96,8 +100,32 @@ body{
 	list-style-type:none;
 }
 .videoframe{
-	display: block;
-  	margin: auto;
+
+  	padding-top: 2em;
   	text-align: center;
   	float: center;
+ 
+}
+.idea{
+	display: inline-block;
+	float: center;
+	text-align: center;
+	background-color: white;
+	text-align: center;
+	width: 20%;
+	height: 100%;
+}
+
+
+
+.blank{
+	background-color: transparent;
+	display: inline-block;
+	width: 100%
+}
+@media(max-width: 768px) {
+	.video-cp {
+		width: 250px;
+		height: auto;
+	}
 }

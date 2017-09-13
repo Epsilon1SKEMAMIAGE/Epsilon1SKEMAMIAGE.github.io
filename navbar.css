@@ -27,3 +27,11 @@
 	width: 19%;
 	font-weight: 450;
 }
+a{
+	text-decoration: none;
+	color: black;
+}
+.navitem:hover{
+	background-color: #ff6f00;
+
+}

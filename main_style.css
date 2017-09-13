@@ -10,6 +10,7 @@ h1,h2{
 body{
 	display: inline-block;
 	background-color: #aeea00;
+	width: 100%;
 }
 
 #title{
@@ -32,7 +33,7 @@ body{
 }
 
 .sub-title{
-	padding: 0.2em  0.1em  0.2em 0.1em;
+	padding: 0.5em  0.1em  0.5em 0.1em;
 	margin: auto;
 	width: 100%;
 	font-size: 28px;
@@ -73,6 +74,18 @@ body{
 	width: 65%;
 }
 
+.strictright{
+	float:right;
+	width: 45%;
+	padding-right: 1em;
+}
+
+.strictleft{
+	float:left;
+	width: 45%;
+	padding-left: 0.5em;
+}
+
 .frame{
 	margin-top : 1em;
 	border: 3px solid grey;
@@ -81,5 +94,6 @@ body{
 }
 
 .separator{
-	width: 100%
+	width: 100%;
+	padding-bottom: 1em;
 }

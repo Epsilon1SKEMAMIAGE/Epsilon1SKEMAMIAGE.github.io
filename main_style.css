@@ -4,29 +4,31 @@ p{
 }
 h1,h2{
 	font-family:Tahoma, Geneva, sans-serif;
+	font-weight: 400;
 }
 
 body{
-	display: block;
+	display: inline-block;
 	background-color: #aeea00;
 }
 
 #title{
+	font-weight: normal;
 	text-shadow:1px 1px #ffffff; 
 	background-image: url("./resources/OCDBE20.jpg");
 	background-size: 120%;
     background-repeat: no-repeat;
     width: 110%;
     margin : -0.5em;
+
 }
 
 .main_title{
 	margin: auto;
 	padding: 2em  1em  2em 1em;
-	float: center;
 	width: 100%;
 	color:#ff6f00;
-	font-size: 45px;
+	font-size: 75px;
 }
 
 .sub-title{

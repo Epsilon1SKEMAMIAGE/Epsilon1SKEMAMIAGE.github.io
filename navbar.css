@@ -1,0 +1,29 @@
+#navbar{
+	display: inline-block;
+	margin: auto;
+	float: center;
+	width: 100%;
+	background-color: transparent;
+	margin-bottom: 1em;
+}
+#panel{
+	float:center;
+}
+#logo{ 	
+	display: inline-block;
+	width: auto;
+ 	overflow: hidden;
+ 	margin-left:1em;
+}
+.navitem{
+	display: inline-block;
+	text-align: center;
+	width: 19%;
+	border: 0.5px solid #ff6f00;
+	background-color: white;
+	margin-bottom: 1em;
+}
+.textitem{
+	width: 19%;
+	font-weight: 450;
+}

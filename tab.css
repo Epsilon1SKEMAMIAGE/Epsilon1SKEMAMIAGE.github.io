@@ -1,0 +1,27 @@
+table{
+	width: 90%;
+	border-collapse: collapse;
+	margin: 5%;
+}
+
+table, th, td {
+    border: 1px solid #ff6f00;
+}
+
+th {
+    text-align: center;
+}
+tr {
+    text-align: left;
+	margin-left: 0.1em;
+}
+
+.orange-tile{
+	background-color: #ff6f00;
+	color: black;
+}
+
+.green-tile{
+	background-color: #55b93a;
+	color: white;
+}

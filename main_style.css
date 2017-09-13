@@ -1,14 +1,14 @@
 
-p{
+p, tr{
 	font-family:Tahoma, Geneva, sans-serif;
 }
-h1,h2{
+h1,h2, th{
 	font-family:Tahoma, Geneva, sans-serif;
 	font-weight: 400;
 }
 
 body{
-	display: inline-block;
+	display: block;
 	background-color: #aeea00;
 	width: 100%;
 }
@@ -51,17 +51,9 @@ body{
 .container {
   display: block;
   margin: auto;
-  float: center;
   text-align: center;
   width: 100%;
   padding: 3px 1px 1px 1px;
-}
-
-.half-container{
-	opacity: 0.5;
-	background-color: #ffffff;
-	display: block;
-
 }
 
 .left{
@@ -73,7 +65,6 @@ body{
 	float:right;
 	width: 65%;
 }
-
 .strictright{
 	float:right;
 	width: 45%;
@@ -96,4 +87,8 @@ body{
 .separator{
 	width: 100%;
 	padding-bottom: 1em;
+}
+
+.unfloat{
+	float: none !important;
 }

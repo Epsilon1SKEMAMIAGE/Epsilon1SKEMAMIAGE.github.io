@@ -1,7 +1,6 @@
 #navbar{
 	display: inline-block;
-	margin: auto;
-	float: center;
+	text-align: center;
 	width: 100%;
 	background-color: transparent;
 	margin-top: 1em;
@@ -9,22 +8,24 @@
 #panel{
 	float:center;
 }
-#logo{ 	
+#logo{
+	position: absolute;
+	left: -5px;
+	top: -5px;
+	margin: 0.2em; 	
 	display: inline-block;
-	width: auto;
- 	overflow: hidden;
- 	margin-left:1em;
+ 	overflow: visible;
 }
 .navitem{
 	display: inline-block;
 	text-align: center;
-	width: 24%;
+	float: top;
+	width: 18%;
 	border: 0.5px solid #ff6f00;
 	background-color: white;
-	margin-bottom: 1em;
+	margin-bottom: 3em;
 }
 .textitem{
-	width: 24%;
 	font-weight: 450;
 }
 a{

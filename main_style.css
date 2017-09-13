@@ -92,3 +92,6 @@ body{
 .unfloat{
 	float: none !important;
 }
+.hide_puce{
+	list-style-type:none;
+}

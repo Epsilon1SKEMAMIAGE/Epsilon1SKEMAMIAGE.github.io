@@ -115,8 +115,11 @@ body{
 	width: 20%;
 	height: 100%;
 }
-
-
+.ideacontainer{
+	display: inline-block;
+	height: 10em;
+	float: center;
+}
 
 .blank{
 	background-color: transparent;

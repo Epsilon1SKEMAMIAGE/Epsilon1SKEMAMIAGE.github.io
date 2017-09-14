@@ -2,7 +2,7 @@
 p, tr{
 	font-family:Tahoma, Geneva, sans-serif;
 }
-h1,h2,h3, th{
+h1,h2,h3, th,a{
 	font-family:Tahoma, Geneva, sans-serif;
 	font-weight: 400;
 }
@@ -26,7 +26,10 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     margin : -0.5em;
+}
 
+#gros{
+	font-size: 30px;
 }
 
 .main_title{
